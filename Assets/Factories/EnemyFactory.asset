@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a1ef1141225904c9193b32d7822bdd, type: 3}
+  m_Name: EnemyFactory
+  m_EditorClassIdentifier: 
+  _goblin:
+    Prefab: {fileID: 7532619860578433079, guid: aec0de9f7baf597479c10d8203aa3dbf, type: 3}
+    Scale:
+      _min: 1
+      _max: 1
+    PathOffset:
+      _min: 0
+      _max: 0
+    Speed:
+      _min: 1
+      _max: 2
+    Health:
+      _min: 100
+      _max: 200
+  _medium:
+    Prefab: {fileID: 5683607962413809464, guid: a8656259647c865419f8ef2416372385, type: 3}
+    Scale:
+      _min: 1
+      _max: 1.5
+    PathOffset:
+      _min: -0.1
+      _max: 0.1
+    Speed:
+      _min: 1.2
+      _max: 1.5
+    Health:
+      _min: 400
+      _max: 500
+  _golem:
+    Prefab: {fileID: 6884770085866110144, guid: eeb99c5b271c6a443bcf64c773041cb8, type: 3}
+    Scale:
+      _min: 2
+      _max: 2
+    PathOffset:
+      _min: 0
+      _max: 0
+    Speed:
+      _min: 0.75
+      _max: 1
+    Health:
+      _min: 600
+      _max: 900
